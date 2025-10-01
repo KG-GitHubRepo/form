@@ -34,7 +34,7 @@ def age_at_least(dob: date, years: int = 18) -> bool:
     return dob <= date.today() - relativedelta(years=years)
 
 # ---------------- App Layout ----------------
-st.title("Workers' Compensation — Claim Intake Form")
+st.title("First Medical Form")
 
 # use a form for atomic submit
 with st.form(key="claim_form"):
